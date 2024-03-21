@@ -23,6 +23,12 @@ li{
   background-color: transparent;
   background-color: var(--main-color);
 }
+
+.header__aside--text{
+  display: flex;
+  flex-direction: column;
+}
+
 .header__logo{
   align-self: center;
   margin: 3%;
@@ -37,6 +43,7 @@ li{
   align-self: flex-end;
   margin: 5px;
   font-family: sans-serif;
+  display: flex;
 }
 .header__aside--num{
   font-size: 27px;
@@ -218,7 +225,7 @@ li{
 .landing__cover{
   display: flex;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 .landing__load{
   align-self: center;
@@ -236,6 +243,11 @@ li{
   justify-content: center;
   gap: 50px;
 }
+.landing__dos{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 .landing__pasta--text{
   font-size: 20px;
   font-weight: bold;
@@ -244,6 +256,27 @@ li{
   color: #fff;
   z-index: 1;
   margin: 30px;
+  margin-right: 29%;
+}
+.landing__pasta--text1{
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 2382px;
+  color: #fff;
+  z-index: 1;
+  margin: 30px;
+  margin-right: 29%;
+}
+.landing__pasta--title1{
+  font-size: 30px;
+  width: 200px;
+  position: absolute;
+  top: 2411px;
+  color: #fff;
+  z-index: 1;
+  margin: 30px;
+  margin-right: 25%;
 }
 .landing__pasta--title{
   font-size: 30px;
@@ -253,12 +286,13 @@ li{
   color: #fff;
   z-index: 1;
   margin: 30px;
+  margin-right: 25%;
 }
 .landing__pasta--text2{
   font-size: 20px;
   font-weight: bold;
   position: absolute;
-  top: 2650px;
+  top: 2609px;
   color: #fff;
   z-index: 1;
   margin: 30px;
@@ -267,7 +301,7 @@ li{
   font-size: 30px;
   width: 200px;
   position: absolute;
-  top: 2700px;
+  top: 2640px;
   color: #fff;
   z-index: 1;
   margin: 30px;
